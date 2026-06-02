@@ -14,3 +14,14 @@ int main() {
         printf("Enter your guess: ");
         scanf("%d", &guess);
         attempts++;
+        if (guess > secret)
+            printf("Too high!\n");
+        else if (guess < secret)
+            printf("Too low!\n");
+        else
+            printf("\nCongratulations! You guessed it in %d attempts.\n", attempts);
+
+    } while (guess != secret);
+
+    return 0;
+}
