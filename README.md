@@ -74,6 +74,7 @@ numberguessingC/
 - User Input Handling
 
 ---
+
 How the Code Works
 
 ### 1. Include Required Libraries
